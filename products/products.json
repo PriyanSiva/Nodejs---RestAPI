@@ -1,18 +1,1 @@
-[
-    {
-        "id": "1",
-        "name": "Product 01",
-        "description": "Product 01 Description"
-    
-    },
-    {
-        "id": "2",
-        "name": "Product 02",
-        "description": "Product 02 Description"
-    },
-    {
-        "id": "3",
-        "name": "Product 03",
-        "description": "Product 03 Description"
-    }
-]
+[{"id":"1","name":"Product 01","description":"Product 01 Description"},{"id":"2","name":"Product 02","description":"Product 02 Description"},{"id":"3","name":"Product 03","description":"Product 03 Description"},{"id":"f1d4bf13-2418-4e2b-af89-ba9ce9af77bf","name":"Product 04","description":"Product 04 Description"},{"id":"812c4d61-3154-4af0-a332-22557541c355","name":"Product 04","description":"Product 04 Description"}]
