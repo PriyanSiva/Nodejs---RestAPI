@@ -1,5 +1,4 @@
 const http = require('http');
-const products = require("./products/products.json");
 const { getProducts, getProduct, createProduct } = require('./controllers/productController');
 
 
@@ -11,7 +10,7 @@ const server = http.createServer((req,res)=>{
         console.log(id)
         getProduct(req,res,id)
     }else if( req.url === '/api/products' && req.method === 'POST' ){
-        createProduct()
+        createProduct(req,res)
     }
     else {
         res.writeHead(404, {'Content-Type': 'application/json'});
